@@ -6,7 +6,6 @@ export default function Problem() {
       <div className="mx-auto max-w-content section-padding py-20 sm:py-24">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
-            <p className="kicker mb-5">Le constat</p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-forest-900 sm:text-4xl">
               ÊTRE PASTEUR, C&rsquo;EST BIEN PLUS QUE PRÊCHER.
             </h2>

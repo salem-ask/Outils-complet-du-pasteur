@@ -14,7 +14,6 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-content grid-cols-1 items-center gap-14 section-padding py-20 sm:py-24 lg:grid-cols-2 lg:py-28">
         <div className="animate-fadeUp">
-          <p className="kicker-light mb-5">Ministère · Formation · Ressources</p>
           <h1 className="font-serif text-4xl font-bold leading-[1.08] tracking-tight text-cream-50 sm:text-5xl lg:text-[3.4rem]">
             {product.name}
           </h1>

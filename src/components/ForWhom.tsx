@@ -7,7 +7,6 @@ export default function ForWhom() {
       <div className="mx-auto max-w-content section-padding py-20 sm:py-24">
         <Reveal>
           <div className="mx-auto max-w-2xl text-center">
-            <p className="kicker mb-5">Destinataires</p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-forest-900 sm:text-4xl">
               À QUI S&rsquo;ADRESSE L&rsquo;OUTIL COMPLET DU PASTEUR&nbsp;?
             </h2>

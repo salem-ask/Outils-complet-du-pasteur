@@ -8,7 +8,6 @@ export default function Offer() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(198,156,58,0.1),_transparent_60%)]" />
       <div className="relative mx-auto max-w-content section-padding py-20 text-center sm:py-24">
         <Reveal>
-          <p className="kicker-light mb-5">L&rsquo;offre</p>
           <h2 className="font-serif text-3xl font-bold leading-tight text-cream-50 sm:text-4xl">
             {product.name}
           </h2>

@@ -15,7 +15,6 @@ export default function Solution() {
       <div className="mx-auto max-w-content section-padding py-20 sm:py-24">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
-            <p className="kicker-light mb-5">La réponse</p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-cream-50 sm:text-4xl">
               VOICI L&rsquo;OUTIL COMPLET DU PASTEUR
             </h2>

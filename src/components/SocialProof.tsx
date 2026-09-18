@@ -10,7 +10,6 @@ export default function SocialProof() {
       <div className="mx-auto max-w-content section-padding py-20 sm:py-24">
         <Reveal>
           <div className="mx-auto max-w-2xl text-center">
-            <p className="kicker mb-5">Preuves sociales</p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-forest-900 sm:text-4xl">
               ILS ONT COMMANDÉ. ILS ONT REÇU.
             </h2>
