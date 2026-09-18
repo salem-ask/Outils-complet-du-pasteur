@@ -21,12 +21,12 @@ export default function SocialProof() {
           </div>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {images.socialProof.map((src, i) => {
             const exists = imageExists(src);
             return (
-              <Reveal key={src} delay={(i % 3) * 90}>
-                <div className="relative mx-auto aspect-[9/17] w-full max-w-[280px] overflow-hidden rounded-lg border border-leather-700/20 bg-forest-900 shadow-card transition-transform duration-300 hover:-translate-y-1">
+              <Reveal key={src} delay={(i % 4) * 90}>
+                <div className="relative mx-auto aspect-[750/1622] w-full max-w-[280px] overflow-hidden rounded-lg border border-leather-700/20 bg-forest-900 shadow-card transition-transform duration-300 hover:-translate-y-1">
                   {exists ? (
                     <Image
                       src={src}

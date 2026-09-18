@@ -1,32 +1,33 @@
 # Captures WhatsApp — preuves sociales
 
-Déposer ici les **5 captures d'écran WhatsApp réelles** fournies, sous les
-noms suivants :
+Ce dossier contient les **4 captures d'écran WhatsApp réelles** fournies
+par le client, converties en JPEG et déjà floutées :
 
 ```
-temoignage-1.png
-temoignage-2.png
-temoignage-3.png
-temoignage-4.png
-temoignage-5.png
+temoignage-1.jpg
+temoignage-2.jpg
+temoignage-3.jpg
+temoignage-4.jpg
 ```
 
-(ou modifier le tableau `images.socialProof` dans `src/config/product.ts`
-si d'autres noms sont utilisés).
+(seules 4 captures ont été fournies à ce jour ; pour en ajouter d'autres,
+déposer le fichier ici et l'ajouter au tableau `images.socialProof` dans
+`src/config/product.ts`).
 
-## Important — avant de déposer les captures
+## Floutage appliqué
 
-Ces captures doivent rester authentiques : ne jamais les recréer ou les
-modifier autrement que pour protéger les données personnelles.
+Sur chaque capture, ont été floutés (flou gaussien) :
 
-Avant de déposer chaque image, flouter manuellement (dans un éditeur
-d'image) :
+- la photo de profil / avatar du client (les deux occurrences quand il y en
+  a deux, ex. avatar de la bulle d'en-tête et avatar du message vocal) ;
+- le numéro de téléphone visible en haut de la conversation ;
+- **uniquement la troisième ligne** du lien de téléchargement Google Drive
+  partagé dans la conversation (ex. `rsTTy6590oaKYoXkCSeW_HV2Y`) — le reste
+  du lien (`https://drive.google.com/drive/folders/1o5FQGP-`) reste visible
+  pour l'authenticité, mais n'est pas exploitable seul.
 
-- le numéro de téléphone, le nom et la photo de profil du client ;
-- **uniquement la troisième ligne / partie sensible** d'un éventuel lien de
-  téléchargement visible dans la conversation, afin qu'il ne soit pas
-  directement utilisable — ne pas flouter le lien entier.
+Le contenu des échanges (messages, horodatages) n'a pas été modifié.
 
-Tant que les fichiers ne sont pas présents, un emplacement clairement
-identifié s'affiche à la place de chaque capture (aucun témoignage n'est
-inventé).
+Tant qu'un fichier référencé dans `product.ts` n'est pas présent ici, un
+emplacement clairement identifié s'affiche à sa place (aucun témoignage
+n'est inventé).

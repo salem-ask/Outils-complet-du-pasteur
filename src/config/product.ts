@@ -180,14 +180,17 @@ export const seo = {
 };
 
 export const images = {
-  /** Affiche / mockup principal du pack — à remplacer dans public/images/product/ */
-  productMockup: '/images/product/pack-mockup.png',
-  /** Les 5 captures WhatsApp de preuve sociale — à remplacer dans public/images/social-proof/ */
+  /** Affiche / mockup principal du pack */
+  productMockup: '/images/product/pack-mockup.jpg',
+  /**
+   * Captures WhatsApp de preuve sociale (données personnelles et 3e ligne
+   * du lien de téléchargement floutées). Ajouter/retirer un chemin ici
+   * suffit à faire évoluer la galerie.
+   */
   socialProof: [
-    '/images/social-proof/temoignage-1.png',
-    '/images/social-proof/temoignage-2.png',
-    '/images/social-proof/temoignage-3.png',
-    '/images/social-proof/temoignage-4.png',
-    '/images/social-proof/temoignage-5.png',
+    '/images/social-proof/temoignage-1.jpg',
+    '/images/social-proof/temoignage-2.jpg',
+    '/images/social-proof/temoignage-3.jpg',
+    '/images/social-proof/temoignage-4.jpg',
   ],
 };

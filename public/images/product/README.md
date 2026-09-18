@@ -1,19 +1,20 @@
 # Image produit
 
-Déposer ici l'affiche / mockup principal du pack **Outil complet du pasteur**
-sous le nom :
+Ce dossier contient l'affiche / mockup officiel du pack **Outil complet du
+pasteur** fourni par le client :
 
 ```
-pack-mockup.png
+pack-mockup.jpg
 ```
 
-(ou modifier `images.productMockup` dans `src/config/product.ts` si un autre
-nom de fichier est utilisé).
+(modifier `images.productMockup` dans `src/config/product.ts` pour changer
+de fichier).
 
 Cette image est utilisée :
 - dans le Hero (première section) ;
 - dans la section « Votre bibliothèque pastorale, au même endroit » ;
 - comme image Open Graph pour le partage sur Facebook / WhatsApp.
 
-Tant que le fichier n'est pas présent, un emplacement clairement identifié
-s'affiche à la place (aucun visuel n'est inventé).
+Tant qu'un fichier référencé dans `product.ts` n'est pas présent ici, un
+emplacement clairement identifié s'affiche à la place (aucun visuel n'est
+inventé).
