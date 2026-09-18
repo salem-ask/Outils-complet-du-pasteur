@@ -39,7 +39,7 @@ export default function Hero() {
 
         <div className="relative animate-fadeIn">
           <div className="absolute -inset-6 -z-10 rounded-lg border border-gold-500/20" />
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-md animate-floatSlow overflow-hidden rounded-md border border-gold-500/30 bg-forest-900 shadow-2xl">
+          <div className="relative mx-auto aspect-[12/13] w-full max-w-md animate-floatSlow overflow-hidden rounded-md border border-gold-500/30 bg-forest-900 shadow-2xl">
             {hasMockup ? (
               <Image
                 src={images.productMockup}

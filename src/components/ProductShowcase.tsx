@@ -21,14 +21,14 @@ export default function ProductShowcase() {
         </Reveal>
 
         <Reveal delay={150}>
-          <div className="relative mx-auto mt-4 aspect-[16/10] w-full max-w-2xl overflow-hidden rounded-md border border-gold-500/25 bg-forest-900 shadow-2xl">
+          <div className="relative mx-auto mt-4 aspect-[12/13] w-full max-w-xl overflow-hidden rounded-md border border-gold-500/25 bg-forest-900 shadow-2xl">
             {hasMockup ? (
               <Image
                 src={images.productMockup}
                 alt="Vue d'ensemble de la collection Outil complet du pasteur"
                 fill
                 loading="lazy"
-                sizes="(min-width: 1024px) 700px, 90vw"
+                sizes="(min-width: 1024px) 576px, 90vw"
                 className="object-cover"
               />
             ) : (

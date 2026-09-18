@@ -19,7 +19,7 @@ const inter = Inter({
 
 const hasOgImage = imageExists(images.productMockup);
 const ogImages = hasOgImage
-  ? [{ url: images.productMockup, width: 1200, height: 1500, alt: seo.title }]
+  ? [{ url: images.productMockup, width: 1000, height: 1083, alt: seo.title }]
   : undefined;
 
 export const metadata: Metadata = {

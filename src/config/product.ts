@@ -157,9 +157,14 @@ export const faq: FaqItem[] = [
       'Être pasteur, Implantation d’église, Évangélisation & suivi des nouveaux convertis, Administration de l’église, Formation des ouvriers, École de dimanche, Ministère des jeunes, Ministère des femmes, Prédication & enseignement, Ressources essentielles.',
   },
   {
+    question: 'Comment payer ?',
+    answer:
+      'Il vous suffit de cliquer sur le bouton « Accéder au pack », puis de suivre les étapes indiquées sur la page de paiement sécurisée pour finaliser votre commande.',
+  },
+  {
     question: 'Comment recevoir les documents après l’achat ?',
     answer:
-      'Le téléchargement des documents est immédiat après votre achat. L’affiche promotionnelle du pack vous sera également envoyée.',
+      'Le téléchargement des documents est immédiat après votre achat.',
   },
 ];
 
