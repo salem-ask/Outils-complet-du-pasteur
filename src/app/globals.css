@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    @apply bg-cream-50 text-ink-900 antialiased;
+    font-feature-settings: 'liga' 1, 'kern' 1;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-6 sm:px-8 lg:px-12;
+  }
+
+  .kicker {
+    @apply text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-gold-600;
+  }
+
+  .kicker-light {
+    @apply text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-gold-400;
+  }
+
+  .gold-rule {
+    @apply h-px w-16 bg-gold-line;
+  }
+
+  /*
+   * Texture très légère rappelant le papier. N'impose jamais de
+   * background-color : la couleur de fond reste celle définie par la
+   * classe bg-* de la section (claire ou sombre) pour éviter tout
+   * conflit de cascade CSS.
+   */
+  .paper-texture {
+    background-image:
+      radial-gradient(circle at 15% 25%, rgba(115, 74, 38, 0.05), transparent 40%),
+      radial-gradient(circle at 85% 75%, rgba(198, 156, 58, 0.06), transparent 45%);
+  }
+
+  /*
+   * Amélioration progressive : le contenu reste visible par défaut
+   * (JS lent/absent, robots, connexions faibles). L'animation d'apparition
+   * n'est activée que si le script bloquant dans <head> a pu confirmer
+   * que le JavaScript s'exécute (classe "js-anim" sur <html>).
+   */
+  .js-anim .fade-section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+
+  .js-anim .fade-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .js-anim .fade-section {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
